@@ -1,5 +1,5 @@
 #include<stdio.h>
-main()
+int main()
 {
     float b,d,h,g,n,t,m;
     m=300;
@@ -12,4 +12,5 @@ main()
     printf("Gross salary=\n%f\n",g);
     n=g-t;
     printf("Net salary=\n%f",n);
+    return 0;
 }

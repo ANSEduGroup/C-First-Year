@@ -1,5 +1,5 @@
 #include<stdio.h>
-main()
+int main()
 {
     float v,t,f,w,p;
     printf("Enter velocity,time and force\n");
@@ -8,5 +8,5 @@ main()
     printf("Work=\n%f",w);
     p=w/t;
     printf("Power=\n%f",p);
-
+    return 0;
 }

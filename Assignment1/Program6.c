@@ -1,5 +1,5 @@
 #include<stdio.h>
-main()
+int main()
 {
     float m1,m2,g,r;
     printf("Enter 2 masses\n");
@@ -7,4 +7,5 @@ main()
     g=9.8;
     r=(m1+m2)*g;
     printf("Tension=\n%f",r);
+    return 0;
 }

@@ -1,5 +1,5 @@
 #include<stdio.h>
-main()
+int main()
 {
     float m,g,h,v,p,k;
     printf("Enter mass,height and velocity\n");
@@ -9,6 +9,5 @@ main()
     k=(m*v*v)/2;
     printf("Kinetic energy\n%f",k);
     printf("Potential energy=\n%f",p);
-
-
+    return 0;
 }
