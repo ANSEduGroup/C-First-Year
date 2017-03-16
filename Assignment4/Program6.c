@@ -1,22 +1,28 @@
 #include<stdio.h>
+
 int main()
 {
+    int n;
+    int revNum=0;
+    int s;
+    int temp;
 
-    int n,ri=0,r,o;
     printf("Enter number\n");
-    scanf("%d",&n);
-    o=n;
-    while(n!=0)
+    scanf("%d", &n);
+
+    temp = n;
+
+    while(temp ! =0)
     {
-
-    r=n%10;
-    ri=ri*10+r;
-    n/=10;
-
+        s = temp % 10;
+        revNum = revNum * 10 + s;
+        temp /= 10;
     }
-    if(o==ri)
+
+    if(revNum == n)
         printf("PALINDROME");
     else
         printf("NOT PALINDROME");
- return 0;
+
+    return 0;
 }
