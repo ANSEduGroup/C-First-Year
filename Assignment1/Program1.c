@@ -1,4 +1,4 @@
-##Program to convert temperature from celsius to fahrenheit.
+Program to convert temperature from celsius to fahrenheit.
 #include<stdio.h>
 int main()
 {
