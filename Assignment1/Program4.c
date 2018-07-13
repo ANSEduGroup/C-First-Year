@@ -1,3 +1,4 @@
+//Program to find the work and power.
 #include<stdio.h>
 int main()
 {
