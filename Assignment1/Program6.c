@@ -1,3 +1,4 @@
+//Program to calculate the tension.(Given g=9.8)
 #include<stdio.h>
 int main()
 {
