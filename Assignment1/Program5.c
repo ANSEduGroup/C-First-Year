@@ -1,3 +1,4 @@
+//Program to calcualte kinetic energy and potential energy.
 #include<stdio.h>
 int main()
 {
