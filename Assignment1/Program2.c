@@ -1,3 +1,4 @@
+//Program to calculate gross salary and net salary.(Given m=300)
 #include<stdio.h>
 int main()
 {
