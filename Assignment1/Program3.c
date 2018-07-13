@@ -1,3 +1,4 @@
+//Program to calculate the sum the sum of a fraction and print the result in fraction format.
 #include<stdio.h>
 int main()
 {
